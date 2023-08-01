@@ -1,0 +1,28 @@
+<div class="card">
+    <img class="img-fluid" style="height: 250px;" [src]="product.img" class="card-img-top"
+        alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{product.name}}</h5>
+        <p class="card-text"><span
+                class="text-danger fw-semibold me-2">
+                {{product.salePrice | currency: "INR"}}</span>
+                <del> {{product.costPrice | currency: "INR"}}</del>
+            <span class="text-success ms-2">{{product.offer}}%</span></p>
+        <div class="row">
+            <div class="col">
+                <i class="fa fa-star  m-0" style="color: #fbff00;"></i>
+                <i class="fa fa-star  m-0" style="color: #fbff00;"></i>
+                <i class="fa fa-star  m-0" style="color: #fbff00;"></i>
+                <i class="fa fa-star-half-o  m-0" style="color: #fbff00;"></i> 
+                <i class="fa fa-star-o  m-0" style="color: #fbff00;"></i>
+                <span class="text-muted">({{product.rating}})</span>
+            </div>
+        </div>
+        <div class="pt-3">
+            <button class="btn btn-sm btn-success"
+                (click)="AddItemToCart()">
+                Add To Cart
+            </button>
+        </div>
+    </div>
+</div>

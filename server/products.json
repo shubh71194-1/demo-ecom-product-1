@@ -1,0 +1,86 @@
+{
+    "products": { 
+        "data": [
+            { 
+                "id": 1, 
+                "name": "item 1", 
+                "costPrice": 100,
+                "salePrice":99, 
+                "offer": 1, 
+                "star": 3.5, 
+                "rating": 20, 
+                "img": "https://idestiny.in/wp-content/uploads/2020/12/Pro-M1-copy-8@3x.png" 
+            },
+            { 
+                "id": 2, 
+                "name": "item 2", 
+                "costPrice": 100,
+                "salePrice": 98,
+                "offer": 2, 
+                "star": 3.5, 
+                "rating": 20, 
+                "img": "https://idestiny.in/wp-content/uploads/2020/12/Pro-M1-copy-8@3x.png" 
+            },
+            { 
+                "id": 3, 
+                "name": "item 3", 
+                "costPrice": 100,
+                "salePrice": 97,
+                "offer": 3, 
+                "star": 3.5, 
+                "rating": 20, 
+                "img": "https://idestiny.in/wp-content/uploads/2020/12/Pro-M1-copy-8@3x.png" 
+            },
+            { 
+                "id": 4, 
+                "name": "item 4", 
+                "costPrice": 100,
+                "salePrice": 96,
+                "offer": 4, 
+                "star": 3.5, 
+                "rating": 20, 
+                "img": "https://idestiny.in/wp-content/uploads/2020/12/Pro-M1-copy-8@3x.png" 
+            },
+            { 
+                "id": 5, 
+                "name": "item 5", 
+                "costPrice": 100,
+                "salePrice": 95,
+                "offer": 5, 
+                "star": 3.5, 
+                "rating": 20, 
+                "img": "https://idestiny.in/wp-content/uploads/2020/12/Pro-M1-copy-8@3x.png" 
+            },
+            { 
+                "id": 6, 
+                "name": "item 6", 
+                "costPrice": 100,
+                "salePrice": 94,
+                "offer": 6, 
+                "star": 3.5, 
+                "rating": 20, 
+                "img": "https://idestiny.in/wp-content/uploads/2020/12/Pro-M1-copy-8@3x.png" 
+            },
+            { 
+                "id": 7, 
+                "name": "item 7", 
+                "costPrice": 100,
+                "salePrice": 93,
+                "offer": 7, 
+                "star": 3.5, 
+                "rating": 20, 
+                "img": "https://idestiny.in/wp-content/uploads/2020/12/Pro-M1-copy-8@3x.png" 
+            },
+            { 
+                "id": 8, 
+                "name": "item 8", 
+                "costPrice": 100,
+                "salePrice": 92,
+                "offer": 8, 
+                "star": 3.5, 
+                "rating": 20, 
+                "img": "https://idestiny.in/wp-content/uploads/2020/12/Pro-M1-copy-8@3x.png" 
+            }
+        ]
+    }
+}
